@@ -119,7 +119,7 @@ const PLAYER_INPUTS: PlayerInput[] = [
   {
     name: 'SwettyMC',
     region: 'JP',
-    overall: 'LT1',
+    overall: 'HT1',
     tiers: {
       sword: t('HT1'),
       netherite: t('HT2'),
@@ -132,7 +132,7 @@ const PLAYER_INPUTS: PlayerInput[] = [
   {
     name: 'eagz2035',
     region: 'JP',
-    overall: 'LT1',
+    overall: 'HT1',
     tiers: {
       sword: t('LT2'),
       netherite: t('LT1'),
@@ -144,27 +144,26 @@ const PLAYER_INPUTS: PlayerInput[] = [
   {
     name: 'menmen110',
     region: 'JP',
-    overall: 'HT2',
+    overall: 'LT1',
     tiers: {
-      sword: t('HT1'),
+      sword: t('LT1'),
       mace: t('LT2'),
       netherite: t('HT1'),
       pot: t('HT2'),
       crystal: t('LT2'),
-      spear: t('LT2'),
     },
-    ffa: { kills: 1006, level: 9 }, // LT1
+    ffa: { kills: 1006, level: 10 }, // HT1
   },
   {
     name: 'Hruka657',
     region: 'JP',
-    overall: 'HT4',
+    overall: 'LT3',
     tiers: {
       sword: t('HT4'),
-      netherite: t('HT4'),
-      pot: t('LT4'),
+      netherite: t('LT3'),
+      pot: t('HT4'),
     },
-    ffa: { kills: 458, level: 5 }, // LT3
+    ffa: { kills: 458, level: 6 }, // HT3
   },
   {
     name: 'yvvulo', // ※ティア表では「Namq4」と書かれていた人
@@ -323,6 +322,28 @@ const PLAYER_INPUTS: PlayerInput[] = [
       sword: t('HT1'),
       netherite: t('HT2'),
       pot: t('HT2'),
+    },
+    ffa: { kills: 0, level: 5 }, // LT3
+  },
+   {
+      name: 'omo pwp',
+    region: 'JP',
+    overall: 'HT3',
+    tiers: {
+      sword: t('LT2'),
+      netherite: t('HT3'),
+      pot: t('HT3'),
+    },
+    ffa: { kills: 0, level: 5 }, // LT3
+  },
+   {
+      name: 'Eddiee Watson',
+    region: 'JP',
+    overall: 'HT3',
+    tiers: {
+      sword: t('LT2'),
+      netherite: t('HT3'),
+      pot: t('LT3'),
     },
     ffa: { kills: 0, level: 5 }, // LT3
   },
